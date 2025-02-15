@@ -1,0 +1,60 @@
+.conversionContainer {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color: #333;
+}
+
+.inputContainer {
+  margin: 15px 0;
+}
+
+.inputField {
+  padding: 8px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.celsiusButton {
+  background-color: #3498db;
+}
+
+.fahrenheitButton {
+  background-color: #e74c3c;
+}
+
+.convertButton {
+  background-color: #e0921c;
+}
+
+.result {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
